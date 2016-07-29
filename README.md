@@ -26,7 +26,7 @@ Booting up...
 
 ```bash
 Welcome to Moby alpha
-Kernel 4.4.14-moby on an x86_64 (/dev/ttyS0)
+Kernel 4.4.15-moby on an x86_64 (/dev/ttyS0)
 
                         ##         .
                   ## ## ##        ==
@@ -40,37 +40,6 @@ Kernel 4.4.14-moby on an x86_64 (/dev/ttyS0)
 moby login: root
 Welcome to the Moby alpha, based on Alpine Linux.
 moby:~# 
-```
-
-## Using Docker from Mac
-
-```bash
-$ make env
-moby-hyperkit: running on 192.168.64.11
-export DOCKER_HOST=tcp://192.168.64.11:2375;
-unset DOCKER_CERT_PATH;
-unset DOCKER_TLS_VERIFY;
-$ eval $(make env)
-moby-hyperkit: running on 192.168.64.11
-$ docker info
-Containers: 0
-Images: 0
-Server Version: 1.12.0-rc3
-Storage Driver: aufs
- Root Dir: /var/lib/docker/aufs
- Backing Filesystem: extfs
- Dirs: 0
- Dirperm1 Supported: true
-Logging Driver: json-file
-Kernel Version: 4.4.14-moby
-Operating System: Alpine Linux v3.4
-CPUs: 1
-Total Memory: 994.6 MiB
-Name: moby
-ID: TKQ4:TAFZ:CZMP:SJJJ:GH3S:M2XK:4I2P:HRBW:XMGP:X7RN:YXMK:7X2T
-Username: ailispaw
-Registry: https://index.docker.io/v1/
-Experimental: true
 ```
 
 ## Setting up SSH and sudo
