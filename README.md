@@ -61,32 +61,35 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 1.12.6
-Storage Driver: aufs
- Root Dir: /var/lib/docker/aufs
+Server Version: 1.13.0
+Storage Driver: overlay2
  Backing Filesystem: extfs
- Dirs: 0
- Dirperm1 Supported: true
+ Supports d_type: true
+ Native Overlay Diff: true
+Execution Driver: <not supported>
 Logging Driver: json-file
 Plugins:
  Volume: local
- Network: null host overlay bridge
-Kernel Version: 4.4.41-moby
-Operating System: Alpine Linux v3.4
+ Network: bridge host ipvlan macvlan null overlay
+Kernel Version: 4.9.4-moby
+Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
-Total Memory: 991.5 MiB
+Total Memory: 992.8 MiB
 Name: moby
-ID: A63J:5AX2:7PTY:UFVL:WKTD:76RH:MLN3:QQOX:O2LH:L65U:PL4X:33SJ
+ID: ATDJ:UHJF:4V4O:2EUI:GYU6:FCU5:NDRK:4RTL:SHFW:6AZS:3ULX:TI3N
 Debug mode (server): true
  File Descriptors: 14
- Goroutines: 23
- System Time: 2017-01-11T18:26:23.949299412Z
+ Goroutines: 22
+ System Time: 2017-01-19T19:12:19.032627847Z
  EventsListeners: 0
  Init SHA1:
  Init Path:
  Docker Root Dir: /var/lib/docker
+Username: ailispaw
+Registry: https://index.docker.io/v1/
+Experimental: true
 ```
 
 ## Setting up SSH and sudo

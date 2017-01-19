@@ -8,13 +8,13 @@ PASSWORD := docker
 
 DOCKER_APP := /Applications/Docker.app
 
-all: $(KERNEL) $(INITRD) $(HDD)
+all: $(KERNEL) $(INITRD)
 
 upgrade:
 	@$(RM) $(KERNEL) $(INITRD)
 	@$(MAKE)
 
-$(KERNEL) $(INITRD) $(HDD):
+$(KERNEL) $(INITRD):
 	@install -CSpv -m 0644 $(DOCKER_APP)/Contents/Resources/moby/$@ .
 
 xhyve_uuid:
@@ -42,7 +42,7 @@ ssh_args:
 	@echo "-q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
 
 clean:
-	$(RM) $(KERNEL) $(INITRD) $(HDD)
+	$(RM) $(KERNEL) $(INITRD)
 	$(RM) .mac_address
 
 .PHONY: all upgrade xhyve_uuid xhyve_kernel xhyve_cmdline xhyve_hdd \
