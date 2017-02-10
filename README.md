@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 1.13.0
+Server Version: 1.13.1
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -71,18 +71,18 @@ Logging Driver: json-file
 Plugins:
  Volume: local
  Network: bridge host ipvlan macvlan null overlay
-Kernel Version: 4.9.4-moby
+Kernel Version: 4.9.8-moby
 Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
 Total Memory: 992.8 MiB
 Name: moby
-ID: ATDJ:UHJF:4V4O:2EUI:GYU6:FCU5:NDRK:4RTL:SHFW:6AZS:3ULX:TI3N
+ID: 4SYR:XD3I:VPZJ:RBJN:OY4W:FYIV:OUOH:F7YH:EWCC:BFS4:5FGD:BXSU
 Debug mode (server): true
  File Descriptors: 14
  Goroutines: 22
- System Time: 2017-01-19T19:12:19.032627847Z
+ System Time: 2017-02-10T14:56:55.572398989Z
  EventsListeners: 0
  Init SHA1:
  Init Path:
