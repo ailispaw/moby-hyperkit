@@ -61,35 +61,46 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.03.0-ce
+Server Version: 17.03.1-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
  Native Overlay Diff: true
-Execution Driver: <not supported>
 Logging Driver: json-file
+Cgroup Driver: cgroupfs
 Plugins:
  Volume: local
  Network: bridge host ipvlan macvlan null overlay
-Kernel Version: 4.9.12-moby
+Swarm: inactive
+Runtimes: runc
+Default Runtime: runc
+Init Binary: docker-init
+containerd version: 4ab9917febca54791c5f071a9d1f404867857fcc
+runc version: 54296cf40ad8143b62dbcaa1d90e520a2136ddfe
+init version: N/A (expected: 949e6facb77383876aeff8a6944dde66b3089574)
+Security Options:
+ seccomp
+  Profile: default
+Kernel Version: 4.9.13-moby
 Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
 Total Memory: 992.7 MiB
 Name: moby
-ID: PO7Y:55DC:M4LC:DHJX:RXWL:FKZL:EDFR:DF4U:WZH2:NOCP:4J43:F6BJ
-Debug mode (server): true
- File Descriptors: 14
- Goroutines: 22
- System Time: 2017-03-02T20:05:56.476741082Z
+ID: R2VB:MWRH:RWJQ:437O:HBJW:RQWI:2WLA:KOYI:BEWR:MZLD:Q3JH:ULDW
+Docker Root Dir: /var/lib/docker
+Debug Mode (client): false
+Debug Mode (server): true
+ File Descriptors: 13
+ Goroutines: 21
+ System Time: 2017-03-28T15:26:37.625517822Z
  EventsListeners: 0
- Init SHA1:
- Init Path:
- Docker Root Dir: /var/lib/docker
-Username: ailispaw
 Registry: https://index.docker.io/v1/
 Experimental: true
+Insecure Registries:
+ 127.0.0.0/8
+Live Restore Enabled: false
 ```
 
 ## Setting up SSH and sudo
