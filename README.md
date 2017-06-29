@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.03.1-ce
+Server Version: 17.06.0-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -70,34 +70,35 @@ Logging Driver: json-file
 Cgroup Driver: cgroupfs
 Plugins:
  Volume: local
- Network: bridge host ipvlan macvlan null overlay
+ Network: bridge host macvlan null overlay
+ Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslog
 Swarm: inactive
 Runtimes: runc
 Default Runtime: runc
 Init Binary: docker-init
-containerd version: 4ab9917febca54791c5f071a9d1f404867857fcc
-runc version: 54296cf40ad8143b62dbcaa1d90e520a2136ddfe
-init version: N/A (expected: 949e6facb77383876aeff8a6944dde66b3089574)
+containerd version: cfb82a876ecc11b5ca0977d1733adbe58599088a
+runc version: 2d41c047c83e09a6d61d464906feb2a2f3c52aa4
+init version: 949e6fa
 Security Options:
  seccomp
   Profile: default
-Kernel Version: 4.9.13-moby
+Kernel Version: 4.9.31-moby
 Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
-Total Memory: 992.7 MiB
+Total Memory: 992.7MiB
 Name: moby
-ID: R2VB:MWRH:RWJQ:437O:HBJW:RQWI:2WLA:KOYI:BEWR:MZLD:Q3JH:ULDW
+ID: W53J:PLQJ:TLSS:L77B:ZLGP:RLC7:DLJA:S73J:3BM4:R2FE:AW4F:Q375
 Docker Root Dir: /var/lib/docker
 Debug Mode (client): false
 Debug Mode (server): true
- File Descriptors: 13
- Goroutines: 21
- System Time: 2017-03-28T15:26:37.625517822Z
+ File Descriptors: 15
+ Goroutines: 24
+ System Time: 2017-06-29T11:28:44.882354453Z
  EventsListeners: 0
 Registry: https://index.docker.io/v1/
-Experimental: true
+Experimental: false
 Insecure Registries:
  127.0.0.0/8
 Live Restore Enabled: false
