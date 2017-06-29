@@ -63,7 +63,7 @@ fi
 echo "Starting VM"
 while [ 1 ]; do
   /Applications/Docker.app/Contents/Resources/bin/hyperkit $ACPI $MEM $SMP $PCI_DEV $LPC_DEV $NET $IMG_CD $IMG_HDD $UUID -f kexec,$KERNEL,$INITRD,"$CMDLINE"
-  if [ $? -ne 0 ]; then
+  if [ $? -eq 0 ]; then
     break
   fi
 done
