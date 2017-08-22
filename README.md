@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.06.0-ce
+Server Version: 17.06.1-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -76,26 +76,26 @@ Swarm: inactive
 Runtimes: runc
 Default Runtime: runc
 Init Binary: docker-init
-containerd version: cfb82a876ecc11b5ca0977d1733adbe58599088a
-runc version: 2d41c047c83e09a6d61d464906feb2a2f3c52aa4
+containerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170
+runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2
 init version: 949e6fa
 Security Options:
  seccomp
   Profile: default
-Kernel Version: 4.9.31-moby
+Kernel Version: 4.9.41-moby
 Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
 Total Memory: 992.7MiB
 Name: moby
-ID: W53J:PLQJ:TLSS:L77B:ZLGP:RLC7:DLJA:S73J:3BM4:R2FE:AW4F:Q375
+ID: RA3A:633G:LM6O:CTEW:QMV4:JARY:AMGB:N56B:7ZJC:7HG4:GOJC:3NUF
 Docker Root Dir: /var/lib/docker
 Debug Mode (client): false
 Debug Mode (server): true
- File Descriptors: 15
- Goroutines: 24
- System Time: 2017-06-29T11:28:44.882354453Z
+ File Descriptors: 16
+ Goroutines: 26
+ System Time: 2017-08-22T16:38:27.916722407Z
  EventsListeners: 0
 Registry: https://index.docker.io/v1/
 Experimental: false
@@ -118,7 +118,7 @@ Live Restore Enabled: false
 $ make ssh
 moby-hyperkit: running on 192.168.64.4
 docker@192.168.64.4's password:
-Welcome to Moby, based on Alpine Linux.
+Welcome to Moby
 moby:~$ 
 ```
 
