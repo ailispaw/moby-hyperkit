@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.06.1-ce
+Server Version: 17.06.2-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -89,13 +89,13 @@ Architecture: x86_64
 CPUs: 1
 Total Memory: 992.7MiB
 Name: moby
-ID: RA3A:633G:LM6O:CTEW:QMV4:JARY:AMGB:N56B:7ZJC:7HG4:GOJC:3NUF
+ID: RP2D:XG4Y:GZFZ:DN6H:R7QR:FWAH:P56L:WESB:5YPU:DRTI:BLZR:TMVX
 Docker Root Dir: /var/lib/docker
 Debug Mode (client): false
 Debug Mode (server): true
- File Descriptors: 16
- Goroutines: 26
- System Time: 2017-08-22T16:38:27.916722407Z
+ File Descriptors: 15
+ Goroutines: 25
+ System Time: 2017-09-06T16:47:21.061084481Z
  EventsListeners: 0
 Registry: https://index.docker.io/v1/
 Experimental: false
