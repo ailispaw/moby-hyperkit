@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.06.2-ce
+Server Version: 17.09.0-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -76,26 +76,26 @@ Swarm: inactive
 Runtimes: runc
 Default Runtime: runc
 Init Binary: docker-init
-containerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170
-runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2
+containerd version: 06b9cb35161009dcb7123345749fef02f7cea8e0
+runc version: 3f2f8b84a77f73d38244dd690525642a72156c64
 init version: 949e6fa
 Security Options:
  seccomp
   Profile: default
-Kernel Version: 4.9.41-moby
+Kernel Version: 4.9.49-moby
 Operating System: Alpine Linux v3.5
 OSType: linux
 Architecture: x86_64
 CPUs: 1
 Total Memory: 992.7MiB
 Name: moby
-ID: RP2D:XG4Y:GZFZ:DN6H:R7QR:FWAH:P56L:WESB:5YPU:DRTI:BLZR:TMVX
+ID: 4AVN:SV3L:AONU:RNO2:5KCS:HYD4:BRJO:HZI7:5XCA:TPUQ:KYMF:CZBI
 Docker Root Dir: /var/lib/docker
 Debug Mode (client): false
 Debug Mode (server): true
- File Descriptors: 15
- Goroutines: 25
- System Time: 2017-09-06T16:47:21.061084481Z
+ File Descriptors: 17
+ Goroutines: 26
+ System Time: 2017-10-03T20:10:04.561552514Z
  EventsListeners: 0
 Registry: https://index.docker.io/v1/
 Experimental: false
