@@ -61,7 +61,7 @@ Containers: 0
  Paused: 0
  Stopped: 0
 Images: 0
-Server Version: 17.09.0-ce
+Server Version: 17.09.1-ce
 Storage Driver: overlay2
  Backing Filesystem: extfs
  Supports d_type: true
@@ -95,7 +95,7 @@ Debug Mode (client): false
 Debug Mode (server): true
  File Descriptors: 17
  Goroutines: 26
- System Time: 2017-10-03T20:10:04.561552514Z
+ System Time: 2017-12-11T17:33:11.727837306Z
  EventsListeners: 0
 Registry: https://index.docker.io/v1/
 Experimental: false
